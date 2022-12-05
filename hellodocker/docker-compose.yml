@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+    hellodocker:
+        # especifica el directori (context) on es troba el Dockerfile
+        # especifica la imatge a utilitzar
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
